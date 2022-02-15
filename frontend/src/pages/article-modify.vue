@@ -95,7 +95,7 @@ $delete-color: #ac3838;
   width: $width-container;
   margin: auto;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px #0000ff1a;
+  box-shadow: 1px 1px 7px 1px #7878781a;
   margin-bottom: $marginwithbutton;
   border-radius: 0px;
   display: flex;

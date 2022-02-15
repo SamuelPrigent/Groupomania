@@ -39,7 +39,7 @@ $width-container-home: 75%;
   width: $width-container-home;
   margin: auto;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, 0.1);
+  box-shadow: 1px 1px 6px 1px #78787811;
   margin-bottom: 24px;
   border-radius: 0px;
   display: flex;
@@ -86,9 +86,9 @@ $width-container-home: 75%;
 
   .date {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     color: $grey;
-    border-bottom: 1px solid $light;
+    //border-bottom: 1px solid $light;
     padding: 4px 16px 9px;
     text-align: right;
   }

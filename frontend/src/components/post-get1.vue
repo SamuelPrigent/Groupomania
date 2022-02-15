@@ -97,7 +97,7 @@ $marginwithbutton: 9px;
   width: $width-container;
   margin: auto;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, 0.1);
+  box-shadow: 1px 1px 6px 1px #78787811;
   margin-bottom: $marginwithbutton;
   border-radius: 0px;
   display: flex;
@@ -136,8 +136,8 @@ $marginwithbutton: 9px;
     }
   }
   .date-1 {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
     color: $grey;
     border-bottom: 1px solid $light;
     padding: 9px 16px 10px;

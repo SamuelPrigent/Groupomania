@@ -97,7 +97,7 @@ $marginwithbutton: 9px;
   width: $width-container;
   margin: auto;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, 0.1);
+  box-shadow: 1px 1px 6px 1px #78787811;
   margin-bottom: $marginwithbutton;
   border-radius: 0px;
   display: flex;

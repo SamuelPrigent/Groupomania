@@ -130,7 +130,7 @@ $grey: #576464;
 $background: #f6f6f6;
 $groupomania-blue: #132442;
 $width-container: 77%;
-$marginwithbutton: 9px;
+$marginwithbutton: 11px;
 $modify-color: #2ba158;
 $delete-color: #ac3838;
 
@@ -159,7 +159,7 @@ $delete-color: #ac3838;
   width: $width-container;
   margin: auto;
   background-color: white;
-  box-shadow: 1px 1px 1px 1px #0000ff1a;
+  box-shadow: 1px 1px 6px 1px #78787811;
   margin-bottom: $marginwithbutton;
   border-radius: 0px;
   display: flex;

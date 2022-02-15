@@ -31,7 +31,7 @@ onMounted(async () => {
 <template>
   <div class="container">
     <div class="container-title">
-      <div class="button-54">Articles</div>
+      <div class="button-53">Articles</div>
       <router-link class="createPost" to="/newpost"
         ><it-button id="createPost2" type="neutral" outlined
           >Nouveau post</it-button
@@ -71,7 +71,7 @@ $width-container-home: 75%;
   width: $width-container-home;
   justify-content: space-between;
   display: flex;
-  padding: 45px 0px 31px;
+  padding: 45px 0px 20px;
   margin: 0px auto;
 }
 
@@ -89,21 +89,19 @@ $width-container-home: 75%;
   font-weight: 400;
 }
 
-.button-54 {
-  //font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  letter-spacing: 2px;
+.button-53 {
+  font-size: 17px;
+  letter-spacing: 1.5px;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  border: 3px solid #a52b2b;
-  padding: 6px 12px;
-  box-shadow: #a52b2b 1px 1px 0px 0px, #a52b2b 2px 2px 0px 0px,
-    #a52b2b 3px 3px 0px 0px, #a52b2b 4px 4px 0px 0px, #a52b2b 5px 5px 0px 0px;
+  border: 2px solid #a52b2b;
+  border-radius: 4px;
+  padding: 6px 16px;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
   height: auto;
-  margin: 0px 0px auto;
+  font-weight: 300;
 }
 </style>
