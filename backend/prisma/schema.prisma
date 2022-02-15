@@ -1,0 +1,45 @@
+// Prisma Schema & Database connexion
+
+// Connection Base de données
+datasource db {
+  url      = env("DATABASE_URL")
+  provider = "postgresql"
+}
+
+// Use prisma.js dans ./lib qui évite de créer plusieurs prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Models = create table on sql
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  password String 
+  name String
+  surname String
+  role      Role     @default(USER)
+  posts Post[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String @db.VarChar(255)
+  content   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  authorId  Int?
+  author    User?    @relation(fields: [authorId], references: [id])
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+
+// !
+// je n'arrive pas à migrer les data de studio vers postgre de mon pc
+
