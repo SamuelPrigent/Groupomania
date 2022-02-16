@@ -96,7 +96,7 @@ $groupomania-blue: #0d1b31;
   text-decoration: none;
   text-transform: uppercase;
   color: #0a1931;
-  padding: 6px 0px;
+  padding: 7px 0px 6px;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
