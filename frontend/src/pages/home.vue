@@ -52,6 +52,7 @@ $light: #ecf0f1;
 $grey: #576464;
 $background: #f6f6f6;
 $width-container-home: 75%;
+$groupomania-blue: #0d1b31;
 
 /*
 @media only screen and (max-width: 767px) {
@@ -90,18 +91,16 @@ $width-container-home: 75%;
 }
 
 .button-53 {
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
-  border: 2px solid #a52b2b;
-  border-radius: 4px;
-  padding: 6px 16px;
+  color: #0a1931;
+  padding: 6px 0px;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
   height: auto;
-  font-weight: 300;
+  font-weight: 600;
 }
 </style>
