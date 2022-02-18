@@ -128,7 +128,7 @@ $delete-color: #ac3838;
     padding: 0px 16px 0px;
     font-size: 17px;
     font-weight: 300;
-    line-height: 1.7;
+    line-height: 1.2;
     text-align: left;
     box-sizing: border-box;
     color: $groupomania-blue;

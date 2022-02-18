@@ -74,10 +74,18 @@ $width-container-home: 75%;
     text-align: justify;
     font-weight: 300;
     padding: 10px 16px 0px;
-    line-height: 1.1;
-    //border-bottom: 1px solid $light;
+    line-height: 1.2;
     font-size: 17px;
     color: #2c3e50;
+    // cut long word
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    // elipsis the height
+    max-height: 174px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    //white-space: nowrap;
 
     &:first-letter {
       text-transform: capitalize;

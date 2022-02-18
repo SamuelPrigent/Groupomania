@@ -130,6 +130,10 @@ $marginwithbutton: 9px;
     line-height: 1.2;
     font-size: 18px;
     color: #2c3e50;
+    // cut long word
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
 
     &:first-letter {
       text-transform: capitalize;

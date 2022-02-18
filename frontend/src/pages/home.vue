@@ -91,7 +91,7 @@ $groupomania-blue: #0d1b31;
 }
 
 .button-53 {
-  font-size: 20px;
+  font-size: 19.5px;
   letter-spacing: 1.5px;
   text-decoration: none;
   text-transform: uppercase;
